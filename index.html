@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gabriel - Desarrollador Web Freelance</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">G</span> Gabriel</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#service">Servicios</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#contact" class="btn">Contacto</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contacto</a>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/perfil.png" alt="Gabriel" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Gabriel<br />Desarrollador<br />Web Freelance</h1>
+        </div>
+        <p class="section__description">
+          Diseño y desarrollo web que potencia tu presencia digital. Con más de 5 años de experiencia creando soluciones web efectivas y personalizadas.
+        </p>
+        <div class="header__social">
+          <a href="#" target="_blank" class="social-btn"><i class="ri-linkedin-fill"></i></a>
+          <a href="#" target="_blank" class="social-btn"><i class="ri-github-fill"></i></a>
+          <a href="https://wa.me/tu-numero" target="_blank" class="social-btn"><i class="ri-whatsapp-fill"></i></a>
+        </div>
+        <div class="header__btn">
+          <button class="btn">Contáctame</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/bg.png" alt="bg" class="about__bg-1" />
+        <img src="assets/bg.png" alt="bg" class="about__bg-2" />
+        <img src="assets/programdor.png" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Sobre mí</h2>
+        <p class="section__description">
+          Soy un desarrollador web con más de 5 años de experiencia, especializado en HTML, CSS, JavaScript, React y WordPress. 
+          Mi enfoque se centra en escuchar las necesidades del cliente para entregar soluciones web que no solo cumplen, sino que 
+          superan expectativas. Combino creatividad con funcionalidad para crear experiencias web únicas y efectivas.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Descargar CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header">Servicios que ofrezco</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Desarrollo Web Personalizado</h4>
+          <p>
+            Sitios a medida, responsivos y optimizados para SEO que se adaptan perfectamente a tus necesidades.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-store-line"></i></span>
+          <h4>Tiendas Online</h4>
+          <p>
+            Creación de tiendas con WooCommerce, Shopify o desarrollo propio para impulsar tus ventas online.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-layout-line"></i></span>
+          <h4>Landing Pages</h4>
+          <p>
+            Páginas diseñadas para captar clientes y mejorar conversiones, enfocadas en tus objetivos de negocio.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-speed-line"></i></span>
+          <h4>Optimización Web</h4>
+          <p>
+            Mejoras en velocidad, seguridad y mantenimiento para que tu sitio funcione siempre perfecto.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-tools-line"></i></span>
+          <h4>Mantenimiento y Soporte</h4>
+          <p>
+            Actualizaciones, corrección de errores y mejoras continuas para mantener tu sitio actualizado.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-settings-line"></i></span>
+          <h4>Integraciones y Automatizaciones</h4>
+          <p>
+            Conexión con APIs, CRM y herramientas que facilitan la operación de tu negocio.
+          </p>
+        </div>
+        
+    </section>
+
+    <section class="section__container portfolio__container" id="portfolio">
+      <h2 class="section__header">Mi Portafolio</h2>
+      <p class="section__description">
+        Explora una muestra de mis diversos proyectos, que demuestran mis habilidades en
+        desarrollo web y diseño. Cada proyecto refleja mi pasión por crear
+        experiencias digitales innovadoras y de impacto.
+      </p>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <img src="assets/project-1.jpg" alt="Tienda XYZ" />
+          <div class="portfolio__description">
+            <h3>Tienda XYZ</h3>
+            <p>Desarrollo completo de tienda online con WooCommerce</p>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-2.jpg" alt="Landing Page ABC" />
+          <div class="portfolio__description">
+            <h3>Landing Page ABC</h3>
+            <p>Página de captación de leads optimizada para conversiones</p>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-3.jpg" alt="Sitio Corporativo DEF" />
+          <div class="portfolio__description">
+            <h3>Sitio Corporativo DEF</h3>
+            <p>Web institucional moderna con diseño responsive</p>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-4.jpg" alt="Sistema de Gestión" />
+          <div class="portfolio__description">
+            <h3>Sistema de Gestión</h3>
+            <p>Aplicación web para gestión empresarial con panel administrativo</p>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-5.jpg" alt="Blog Corporativo" />
+          <div class="portfolio__description">
+            <h3>Blog Corporativo</h3>
+            <p>Plataforma de contenidos con WordPress personalizado</p>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-6.jpg" alt="App Delivery" />
+          <div class="portfolio__description">
+            <h3>App Delivery</h3>
+            <p>Aplicación web progresiva para servicio de entregas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">G</div>
+      <h2 class="section__header">¡Hablemos de tu proyecto!</h2>
+      <p class="section__description">
+        Estoy listo para ayudarte a crear la presencia web que tu negocio necesita.
+      </p>
+      <form action="mailto:contacto@gabrielweb.com" method="POST" enctype="text/plain" class="contact__form">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
+      <div class="contact__socials">
+        <a href="#" target="_blank"><i class="ri-linkedin-fill"></i></a>
+        <a href="#" target="_blank"><i class="ri-github-fill"></i></a>
+        <a href="https://wa.me/tu-numero" target="_blank"><i class="ri-whatsapp-fill"></i></a>
+      </div>
+    </section>
+    <footer class="footer">
+      © 2025 Gabriel — Desarrollador Web Freelance | contacto@gabrielweb.com
+    </footer>
+
+    <a href="https://wa.me/tu-numero" target="_blank" class="whatsapp-float">
+      <i class="ri-whatsapp-fill"></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
